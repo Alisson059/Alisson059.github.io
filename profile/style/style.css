@@ -42,21 +42,25 @@ Utilizar o site: https://cssgradient.io/
     /* margin: 20px; */
     /*Atribuir uma margin a cada item*/
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 
 
 /* Ao passar o mouse mudar a cor*/
 #menu a:hover {
-    color: rgb(45, 2, 235);
+    color: black;
     
 
 }
 
 
 header {
-    background: rgba(25, 2, 41, 1);
-
+    background: rgb(7,0,70);
+    background: linear-gradient(0deg, rgba(7,0,70,1) 0%, rgba(70,8,138,1) 100%);
+    
+    
+    
 }
 
 
@@ -106,52 +110,36 @@ span {
 
 .btnContact {
     font-family: 'Roboto Mono', monospace;
-    background: rgb(111, 81, 221);
+    background:#ae88e4;
     color: black;
     margin-top: 30px;
 }
 
 .btnContact:hover {
-    background: rgb(111, 11, 204);
-    color: rgb(10, 0, 95);
+    background: #654599;
+    color:black;
+    transform: scale(1.05);
 }
 
 .conteinerServicos {
-    background: rgba(0, 0, 0, 1);
+    background: rgb(7,0,70);
     display: flex;
     justify-content: center;
     padding: 30px;
     margin-top: -8px;
 }
 
-.itemServicos1,
-.itemServicos3,
-.itemServicos5,
-.itemServicos7 {
-    border: 1px solid rgba(0, 31, 255, 1);
+.itemServicos {
+    border: 1px solid #88aeea;
     border-radius: 25px;
     margin: 15px;
     padding: 30px 15px;
     text-align: center;
     width: 30%;
-    box-shadow: 6px 6px 10px -1px rgb(149, 0, 255), -6px -6px 10px -1px rgba(0, 21, 255, 1);
+    box-shadow: 10px 10px 15px -5px #140014, -10px -10px 15px -5px #140014;
     transition: 0, 5s;
 
 
-}
-
-.itemServicos2,
-.itemServicos4,
-.itemServicos6,
-.itemServicos8 {
-    border: 1px solid rgba(0, 31, 255, 1);
-    border-radius: 25px;
-    margin: 15px;
-    padding: 30px 15px;
-    text-align: center;
-    width: 30%;
-    box-shadow: 6px 6px 10px -1px rgb(149, 0, 255), -6px -6px 10px -1px rgba(0, 21, 255, 1);
-    transition: 0, 5s;
 }
 
 .conteinerServicos h2 {
@@ -162,22 +150,9 @@ span {
 
 
 
-.itemServicos1:hover,
-.itemServicos3:hover,
-.itemServicos5:hover,
-.itemServicos7:hover {
-    border: 1px solid rgba(0, 8, 70, 1);
-    background: rgba(0, 8, 70, 1);
-    cursor: pointer;
-    transform: scale(1.08);
-}
-
-.itemServicos2:hover,
-.itemServicos4:hover,
-.itemServicos6:hover,
-.itemServicos8:hover {
-    border: 1px solid rgba(0, 8, 70, 1);
-    background: rgba(0, 8, 70, 1);
+.itemServicos:hover{
+    border: 1px solid #88aeea;
+    background: #1900aa;
     cursor: pointer;
     transform: scale(1.08);
 }
@@ -189,7 +164,7 @@ html {
 h3 {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    background: rgba(0, 0, 0, 1);
+    background: rgb(7,0,70);
     color: white;
     padding-top: 30px;
     padding-bottom: 5px;
@@ -198,8 +173,7 @@ h3 {
 }
 
 .conteinerSobreMim {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(25, 2, 41, 1) 30%);
+    background: rgb(7,0,70);
     display: flex;
     align-items: center;
     padding-bottom: 30px;
@@ -209,34 +183,29 @@ h3 {
 .texto {
     color: white;
     flex: 5;
-    padding-right: 100px;
-    padding-left: 100px;
-    line-height: 30px;
     text-align: justify;
 
 }
 
-.Certificado {
+.conteinerCertificado {
     flex: 5;
     display: flex;
-}
-
-.Ite {
-    flex: 1;
+    padding-left: 150px;
     
 }
 
-.Ceby {
-    flex: 1;
- 
+.Ite {
+    flex: 5;
+}
 
+.Ceby {
+    flex: 5;
 }
 
 #sobreMim h3 {
     text-align: center;
     padding: 50px;
     font-size: 25px;
-    background: rgba(25, 2, 41, 1);
     font-weight: bold;
 }
 
@@ -251,7 +220,7 @@ h3 {
 
 
 #contato {
-    background: rgba(0, 0, 0, 1);
+    background: rgb(7,0,70);
     font-family: 'Roboto Mono', monospace;
     color: white;
     padding-top: 60px;
@@ -321,19 +290,17 @@ form h2 {
 
 .maps {
     padding-left: 250px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .navColor {
     justify-content: center;
-    background: rgba(25, 2, 41, 1);
+    background: rgba(70,8,138,1);
+    
     
 }
 
 .container-fluid {
-    background: rgba(25, 2, 41, 1);
+    background: rgba(70,8,138,1);
     margin-top: -8px;
     margin-bottom: -8px;
     padding: 10px;
@@ -346,28 +313,11 @@ form h2 {
 }
 
 .navbar {
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%280, 0, 0' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%2866, 94, 170' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     
 }
 
-.containerRodape i {
-    font-size: 30px;
-}
 
-@media  screen and (max-width: 480px) {
-    .apresentacao {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .left img {
-        margin-bottom: 30px;
-    }
-    
-    .right {
-        text-align: center;
-    }
-}
 
 
 
