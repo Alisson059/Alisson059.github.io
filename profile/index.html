@@ -1,0 +1,321 @@
+<!-- Declaração de que o documento é em HTML, marcando
+o início do código -->
+<!DOCTYPE html>
+
+<!-- Tag html lang: especifica o idioma da página -->
+<html lang="pt-BR">
+
+
+<!-- Tag head: não é visualizado no corpo (body) da página,
+armazena os metadados -->
+
+<head>
+
+    <!-- Metadado UTF-8: considera um conjunto de caracteres presente no idioma português (acentuação, por exemplo) -->
+    <meta charset="UTF-8">
+
+    <!--Metadado que possibilita a visualização em navegador de dispositivo móvel -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Referencia o arquivo CSS, coloca na tag HEAD-->
+
+    <script src="https://kit.fontawesome.com/bfce6f3381.js" crossorigin="anonymous"></script>
+
+    <!-- Tag title: título da guia -->
+    <title>Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Referencia o arquivo CSS, coloca na tag HEAD-->
+    <link rel="stylesheet" href="style/style.css">
+
+
+</head>
+
+
+<!-- Tag body: Definir o corpo do documento (conteúdo a ser visualizado) -->
+
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family= família= Roboto+Mono:ital,wght@0,200;0,400;1,200 & display=swap');
+    </style>
+
+
+
+
+
+    <!-- Tag nav: Cria uma seção de menu (navigation) -->
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navColor" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicío</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobreMim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Soluções de TI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho da página-->
+    <header>
+
+        <div class="apresentacao">
+
+            <!-- Tag img: inserir imagem na página -->
+
+            <div class="left">
+                <img src="img/TI-removebg-preview.png" width="50%">
+            </div>
+
+
+
+            <div class="right">
+                <!-- Tags h1 ao h6: níveis de importância no corpo do site -->
+                <span>Soluções tecnológicas em </span>
+                <h1> Redes de computadores e Desenvolvimento web </h1>
+
+                <div>
+                    <a href="#contato">
+                        <button class="btn btnContact"><b>Entre em contato</b></button>
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+
+    <section id="sobreMim">
+        <h3>Sobre mim</h3>
+
+        <div class="conteinerSobreMim">
+
+
+
+            <div class="texto">
+
+                <h2>Alisson Melo</h2>
+
+                <br>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, minima delectus. Asperiores et totam
+                    eligendi nostrum molestias temporibus porro iusto provident illum officia, facilis recusandae. Earum
+                    aspernatur fugiat sequi reprehenderit!</p>
+
+            </div>
+
+            <div class="Certificado">
+
+                <div class="Ite" >
+                    <a target="_blank"
+                        href="https://www.credly.com/badges/1260dbbf-d30c-4362-94bd-f463d50f027b/public_url">
+                        <img src="img/ITE.png" width="40%">
+                    </a>
+                </div>
+
+                <div class="Ceby">
+                    <a target="_blank"
+                        href="https://www.credly.com/badges/82e8903a-f3ab-4704-b17b-5f8aa6214b97/public_url">
+                        <img src="img/CyberEssentials.png" width="40%">
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+    <!-- Divisão em seções (partes da página) -->
+    <section id="servicos">
+        <h3>Assistencia de redes e computadores</h3>
+
+        <div class="conteinerServicos">
+
+            <div class="itemServicos1">
+                <img src="img/montagemPC/96.png">
+                <H2>Montagem e manutenção de computadores</H2>
+
+            </div>
+
+            <div class="itemServicos2">
+                <img src="img/Redes/96.png">
+                <h2>Implementação e configuração de redes</h2>
+
+            </div>
+
+            <div class="itemServicos3">
+                <img src="img/configuracaoSO/96.png">
+                <h2>Instalação e configuração de sistemas operacionais</h2>
+            </div>
+
+            <div class="itemServicos4">
+                <img src="img/SegurancaInformacao_64px.png">
+                <h2>Seguranção de informação e backup</h2>
+
+            </div>
+
+
+        </div>
+
+
+        <h3>Desenvolvimento e Implementação de aplicativos</h3>
+        <div class="conteinerServicos">
+
+            <div class="itemServicos5">
+                <img src="img/prototipacao/96.png">
+                <h2>prototição de aplicações</h2>
+            </div>
+
+            <div class="itemServicos6">
+                <img src="img/bancoDeDados/96.png">
+                <h2>Estruturação e administração de bancos de dados</h2>
+            </div>
+
+            <div class="itemServicos7">
+                <img src="img/sistemaDesktop/96.png">
+                <h2>Desenvolvimento de sistema desktop</h2>
+
+            </div>
+
+            <div class="itemServicos8">
+                <img src="img/desenvolverSite/96.png">
+                <h2>Desenvolvimento e hospedagem de sites</h2>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="contato">
+
+        <div class="ConteinerContato">
+
+            <form name="formulariodecontatos">
+                <h2>Entre em contato</h2>
+                <br>
+
+                <div class="displayContato">
+
+                    <div id="dados">
+
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="idNome" placeholder="Digite seu nome" required="required" name="Nome" />
+
+                        <br>
+                        <label for="tel">celular:</label>
+                        <input type="tel" id="idFone" placeholder="(99) 99999-9999" name="tel">
+
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="idMail" placeholder="seuemail@gmail.com" name="email">
+
+                    </div>
+
+                    <div id="mensagem">
+
+                        <label>Deixe sua mensagem:</label>
+
+                        <textarea rows="5"></textarea>
+
+                        <input type="submit" class="enviar" onclick="enviarMensagem();" value="Enviar mensagem">
+
+                    </div>
+
+                    <div class="maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8065064986695!2d-46.70641572448957!3d-23.647099564748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f8ac76dfdb%3A0xc160a87f059ec93d!2sSenac%20Largo%20Treze!5e0!3m2!1spt-PT!2sbr!4v1695048236631!5m2!1spt-PT!2sbr"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+
+            </form>
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <div class="containerRodape">
+
+        <footer class="text-center text-white" style="background-color: rgba(25, 2, 41, 1);">
+
+            <div class="container pt-4">
+
+                <section>
+
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://api.whatsapp.com/send?phone=5511961199374" target="_blank" role="button"><i
+                            class="fa-brands fa-whatsapp" style="color: white"></i>
+                    </a>
+
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:alissonmelo059@gmail.com "
+                        target="_blank" role="button"><i class="fa-solid fa-envelope" style="color: white"></i>
+                    </a>
+
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        target="_blank" role="button"><i class="fa-brands fa-linkedin" style="color: white"></i>
+                    </a>
+
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Alisson059"
+                        target="_blank" role="button"><i class="fa-brands fa-github" style="color: white"></i>
+                    </a>
+
+                </section>
+
+            </div>
+
+
+
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-dark" href="https://mdbootstrap.com/">Alisson.com</a>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
