@@ -55,6 +55,10 @@
     #servicos h3{
       word-break: normal;
     }
+
+    #mensagem {
+      margin-left:80px ;
+    }
   
   }
   

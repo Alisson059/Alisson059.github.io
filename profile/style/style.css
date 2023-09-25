@@ -251,8 +251,6 @@ input {
 
 textarea{
     width: 300px;
-    padding: 5px;
-    margin-bottom: 10px;
     resize: none;
     
 }
