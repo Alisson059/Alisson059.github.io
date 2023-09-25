@@ -1,0 +1,59 @@
+/* Estilos para telas menores */
+@media screen and (max-width: 480px) {
+    .apresentacao {
+        flex-direction: column;
+    }
+  
+    .left img {
+      margin-bottom: 25px; 
+      margin-right: 60px;
+    }
+  
+    .right {
+      margin-right: 60px;
+    }
+  
+    .conteinerSobreMim {
+      flex-direction: column;
+    }
+  
+    .conteinerCertificado {
+      /* margin-bottom: 25px; */
+      padding: 60px;
+      /* margin-left: 60px; */
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .conteinerCertificado img {
+        padding: 3px;
+    }
+  
+    .conteinerSobreMim .texto {
+      /* margin-top: 25px; */
+      text-align: justify;
+
+    }
+
+
+    .conteinerServicos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemServicos {
+        width: 75%;
+    }
+
+    .displayContato {
+        flex-direction: column;
+    }
+
+    .displayContato .maps {
+        padding: 15px;
+    }
+  
+  }
+  
+  
