@@ -1,4 +1,6 @@
 /* Estilos para telas menores */
+
+/* Celular */
 @media screen and (max-width: 480px) {
     .apresentacao {
         flex-direction: column;
@@ -34,7 +36,6 @@
 
     }
 
-
     .conteinerServicos {
         flex-direction: column;
         align-items: center;
@@ -42,24 +43,127 @@
 
     .itemServicos {
         width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    #servicos h3 {
+      font-size: 16px;
+    }
+  
 
     .displayContato {
         flex-direction: column;
+        
     }
+
+
+    input, textarea {
+      width: 100%;
+      
+    }
+
+    #dados{
+      width: 80%;
+      padding: 8px;
+    }
+
 
     .displayContato .maps {
-        padding: 2px;
-    }
-
-    #servicos h3{
-      word-break: break-word;
+      padding: 8px;
+        
     }
 
     #mensagem {
-      margin-left:80px ;
+      width: 80%;
+      margin-left: 0px;
+      padding: 8px;
     }
   
   }
+
+  /* tablet */
+  @media (min-width: 481px) and (max-width: 768px) {
+
+    .apresentacao {
+
+      flex-direction: column;
+      margin-right: 100px;
+      width: auto;
+
+    }
+
+
+    .left {
+      justify-content: center;
+    }
+
+
+    .right {
+      text-align: center;
+
+    }
+
+    .conteinerSobreMim {
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+    #sobreMim h3{
+      text-align: center;
+    }
+
+    .conteinerCertificado {
+      width: auto;
+      padding: 30px;
+    }
+
+    .conteinerServicos {
+      flex-direction: column;
+    }
+
+    .conteinerServicos h2 {
+      font-size: 22px;
+    }
   
+    .itemServicos {
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .displayContato {
+    flex-direction: column;
+    
+}
+
+
+input, textarea {
+  width: 100%;
   
+}
+
+#dados{
+  width: 80%;
+  padding: 8px;
+}
+
+
+.displayContato .maps {
+  padding: 8px;
+    
+}
+
+#mensagem {
+  width: 80%;
+  margin-left: 0px;
+  padding: 8px;
+}
+
+servicos h3 {
+  font-size: 20px;
+}
+
+
+}
