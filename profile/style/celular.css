@@ -93,9 +93,10 @@
 
     }
 
+    .left img {
+      width: 80%;
+      margin-bottom: 25px; 
 
-    .left {
-      justify-content: center;
     }
 
 
@@ -136,34 +137,34 @@
   .displayContato {
     flex-direction: column;
     
-}
+ }
 
 
-input, textarea {
+ input, textarea {
   width: 100%;
   
-}
+ }
 
-#dados{
+ #dados{
   width: 80%;
   padding: 8px;
-}
+ }
 
 
-.displayContato .maps {
+ .displayContato .maps {
   padding: 8px;
     
-}
+ }
 
-#mensagem {
+ #mensagem {
   width: 80%;
   margin-left: 0px;
   padding: 8px;
-}
+ }
 
-servicos h3 {
+ #servicos h3 {
   font-size: 20px;
-}
+ }
 
 
 }
