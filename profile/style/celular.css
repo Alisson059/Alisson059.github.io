@@ -2,169 +2,175 @@
 
 /* Celular */
 @media screen and (max-width: 480px) {
-    .apresentacao {
-        flex-direction: column;
-    }
-  
-    .left img {
-      margin-bottom: 25px; 
-      margin-right: 60px;
-    }
-  
-    .right {
-      margin-right: 60px;
-    }
-  
-    .conteinerSobreMim {
-      flex-direction: column;
-    }
-  
-    .conteinerCertificado {
-      padding: 60px;
-      flex-direction: column;
-      text-align: center;
-      margin-bottom: 50px;
-    }
-
-    .conteinerCertificado img {
-        padding: 3px;
-    }
-  
-    .conteinerSobreMim .texto {
-      /* margin-top: 25px; */
-      text-align: justify;
-
-    }
-
-    .conteinerServicos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .itemServicos {
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #servicos h3 {
-      font-size: 16px;
-    }
-  
-
-    .displayContato {
-        flex-direction: column;
-        
-    }
-
-
-    input, textarea {
-      width: 100%;
-      
-    }
-
-    #dados{
-      width: 80%;
-      padding: 8px;
-    }
-
-
-    .displayContato .maps {
-      padding: 8px;
-        
-    }
-
-    #mensagem {
-      width: 80%;
-      margin-left: 0px;
-      padding: 8px;
-    }
-  
+  .apresentacao {
+    flex-direction: column;
   }
 
-  /* tablet */
-  @media (min-width: 481px) and (max-width: 768px) {
+  .left img {
+    margin-bottom: 25px;
+    margin-right: 60px;
+  }
 
-    .apresentacao {
+  .right {
+    margin-right: 60px;
+  }
 
-      flex-direction: column;
-      margin-right: 100px;
-      width: auto;
+  .conteinerSobreMim {
+    flex-direction: column;
+  }
 
-    }
+  .conteinerCertificado {
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 
-    .left img {
-      width: 80%;
-      margin-bottom: 25px; 
+  .conteinerCertificado img {
+    padding: 3px;
+  }
 
-    }
+  .conteinerSobreMim .texto {
+    /* margin-top: 25px; */
+    text-align: justify;
+
+  }
+
+  .conteinerServicos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .itemServicos {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #servicos h3 {
+    font-size: 16px;
+  }
 
 
-    .right {
-      text-align: center;
+  .displayContato {
+    flex-direction: column;
 
-    }
+  }
 
-    .conteinerSobreMim {
-      flex-direction: column;
-      justify-content: center;
 
-    }
+  input,
+  textarea {
+    width: 100%;
 
-    #sobreMim h3{
-      text-align: center;
-    }
+  }
 
-    .conteinerCertificado {
-      width: auto;
-      padding: 30px;
-    }
+  #dados {
+    width: 80%;
+    padding: 8px;
+  }
 
-    .conteinerServicos {
-      flex-direction: column;
-    }
 
-    .conteinerServicos h2 {
-      font-size: 22px;
-    }
-  
-    .itemServicos {
-      width: 75%;
-      margin-left: auto;
-      margin-right: auto;
+  .displayContato .maps {
+    padding: 8px;
+
+  }
+
+  #mensagem {
+    width: 80%;
+    margin-left: 0px;
+    padding: 8px;
+  }
+
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .apresentacao {
+
+    flex-direction: column;
+    margin-right: 100px;
+    width: auto;
+
+  }
+
+  .left img {
+    width: 80%;
+    margin-bottom: 25px;
+
+  }
+
+
+  .right {
+    text-align: center;
+
+  }
+
+  .conteinerSobreMim {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  #sobreMim h3 {
+    text-align: center;
+  }
+
+  .conteinerCertificado {
+    width: auto;
+    padding: 30px;
+  }
+
+  .conteinerServicos {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .conteinerServicos h2 {
+    font-size: 22px;
+  }
+
+  .itemServicos {
+    flex-grow: 1;
+    flex-basis: 200;
+
+  }
+
+  .conteinerServicos h2 {
+    font-size: 18px;
   }
 
   .displayContato {
     flex-direction: column;
-    
- }
+
+  }
+
+  input,
+  textarea {
+    width: 100%;
+
+  }
+
+  #dados {
+    width: 80%;
+    padding: 8px;
+  }
 
 
- input, textarea {
-  width: 100%;
-  
- }
+  .displayContato .maps {
+    padding: 8px;
 
- #dados{
-  width: 80%;
-  padding: 8px;
- }
+  }
 
+  #mensagem {
+    width: 80%;
+    margin-left: 0px;
+    padding: 8px;
+  }
 
- .displayContato .maps {
-  padding: 8px;
-    
- }
-
- #mensagem {
-  width: 80%;
-  margin-left: 0px;
-  padding: 8px;
- }
-
- #servicos h3 {
-  font-size: 20px;
- }
+  #servicos h3 {
+    font-size: 20px;
+  }
 
 
 }

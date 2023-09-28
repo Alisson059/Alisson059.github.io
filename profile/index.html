@@ -43,20 +43,23 @@ armazena os metadados -->
     </style>
 
 
-
-
-
     <!-- Tag nav: Cria uma seção de menu (navigation) -->
 
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
         <div class="container-fluid" id="menu">
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
                 <span class="navbar-toggler-icon"></span>
+
             </button>
+
             <div class="collapse navbar-collapse navColor" id="navbarNav">
+
                 <ul class="navbar-nav">
+
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicío</a>
                     </li>
@@ -69,9 +72,13 @@ armazena os metadados -->
                     <li class="nav-item">
                         <a class="nav-link" href="#Contrato">Contato</a>
                     </li>
+ 
                 </ul>
+ 
             </div>
+ 
         </div>
+ 
     </nav>
 
     <!-- Cabeçalho da página-->
@@ -85,8 +92,6 @@ armazena os metadados -->
                 <img src="img/TI-removebg-preview.png" width="70%">
             </div>
 
-
-
             <div class="right">
                 <!-- Tags h1 ao h6: níveis de importância no corpo do site -->
                 <span>Soluções tecnológicas em </span>
@@ -99,9 +104,8 @@ armazena os metadados -->
                 </div>
             </div>
 
-
-
         </div>
+
     </header>
 
 
@@ -109,8 +113,6 @@ armazena os metadados -->
         <h3>Sobre mim</h3>
 
         <div class="conteinerSobreMim">
-
-
 
             <div class="texto">
 
@@ -144,9 +146,6 @@ armazena os metadados -->
 
 
         </div>
-
-
-
 
     </section>
 
@@ -227,26 +226,34 @@ armazena os metadados -->
 
                     <div id="dados">
 
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="idNome" placeholder="Digite seu nome" required="required" name="Nome" />
+                        <!-- <label for="nome">Nome:</label> -->
+                        <label for="nome">Nome:
+                            <input name="nome" type="text" id="idNome" placeholder="Digite seu nome" required="required" />
+                        </label>    
 
                         <br>
-                        <label for="tel">celular:</label>
-                        <input type="tel" id="idFone" placeholder="(99) 99999-9999" name="tel">
+                        <!-- <label for="tel">celular:</label> -->
+                        <label for="tel">celular:
+                            <input name="tel" type="tel" id="idFone" placeholder="(99) 99999-9999" >
+                        </label>
 
                         <br>
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="idMail" placeholder="seuemail@gmail.com" name="email">
+
+                        <!-- <label for="email">E-mail:</label> -->
+                        <label for="email">E-mail:
+                            <input name="email" type="email" id="idMail" placeholder="seuemail@gmail.com" >
+                        </label>
 
                     </div>
 
                     <div id="mensagem">
 
-                        <label>Deixe sua mensagem:</label>
+                        <label>Deixe sua mensagem:
 
                         <textarea rows="5"></textarea>
 
                         <input type="submit" class="enviar" onclick="enviarMensagem();" value="Enviar mensagem">
+                    </label>
 
                     </div>
 
@@ -260,11 +267,6 @@ armazena os metadados -->
                 </div>
 
             </form>
-
-
-
-
-
 
         </div>
 
@@ -371,6 +373,6 @@ armazena os metadados -->
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
-</body>
+
 
 </html>
